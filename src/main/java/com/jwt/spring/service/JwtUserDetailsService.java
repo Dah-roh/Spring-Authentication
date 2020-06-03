@@ -18,7 +18,7 @@ public class JwtUserDetailsService implements UserDetailsService {
    new ArrayList<>());
   }
   else {
-   throw new UsernameNotFoundException("No User Found With Username: " + username)
+   throw new UsernameNotFoundException("No User Found With Username: " + username);
   }
  }
 }
